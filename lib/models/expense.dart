@@ -14,8 +14,14 @@ const categoryIcons = {
   Category.work: Icons.work
 };
 
+/// This is a sample class that demonstrates how to add documentation comments.
+///
+/// The `Expense` class is used to illustrate how to add comments that show up in the IDE
+/// when you hover over the class.
 class Expense {
+  
   final String id;
+  /// The `title` property holds a simple string value.
   final String title;
   final double amount;
   final DateTime date;
